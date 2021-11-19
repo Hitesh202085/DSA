@@ -42,7 +42,6 @@ int main(){
 
 void insert(Node** head_ref, int new_data){
     Node* new_node = new Node;
-    Node* temp = NULL;
 
     new_node->data = new_data;
  
